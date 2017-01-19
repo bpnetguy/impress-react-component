@@ -32,32 +32,33 @@ ReactDOM.render(<App />, document.body)
 ```
 
 Here's a list of components you can use:
+
 ###Presentation
 The main component which includes all other impress components, you need this to define a new presentation
 
 _Presentation_ props:
 - **style:**
-styling the main div of presentation [object]
+styling the main div of presentation _[object]_
 
 ###Slide
 Defines a slide of your presentation
 
 _Slide_ props:
 - **style:**
-styling the main div of slide [object]
+styling the main div of slide _[object]_
 - **position:**
-Slide's position in an object like {x: 10, y: 20, z: 30} or array like [10, 20, 30] [object or array]
+Slide's position in an object like {x: 10, y: 20, z: 30} or array like [10, 20, 30] _[object or array]_
 - **x:**
-Slide's position-x [number]
+Slide's position-x _[number]_
 - **y:**
-Slide's position-y [number]
+Slide's position-y _[number]_
 - **z:**
-Slide's position-z [number]
+Slide's position-z _[number]_
 - **rotation:**
-Slide's rotation in an object like {x: 10, y: 20, z: 30} or array like [10, 20, 30] [object or array]
+Slide's rotation in an object like {x: 10, y: 20, z: 30} or array like [10, 20, 30] _[object or array]_
 - **rotateX:**
-Slide's rotation-x [number]
+Slide's rotation-x _[number]_
 - **rotateY:**
-Slide's rotation-y [number]
+Slide's rotation-y _[number]_
 - **rotateZ:**
-Slide's rotation-z [number]
+Slide's rotation-z _[number]_
