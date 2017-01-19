@@ -62,3 +62,7 @@ Slide's rotation-x _[number]_
 Slide's rotation-y _[number]_
 - **rotateZ:**
 Slide's rotation-z _[number]_
+
+===
+
+##Work on progress
