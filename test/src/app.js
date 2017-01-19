@@ -1,13 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Box} from '../../src/index.js'
+import { Presentation, Slide } from '../../src/index.js'
 
 class App extends React.Component {
   render () {
     return (
-      <Box>
-        <h1>Hello</h1>
-      </Box>
+      <Presentation>
+        <Slide y={500} z={1000}>
+          <h1>Hello</h1>
+        </Slide>
+        <Slide rotate={90} rotateX={45}>
+          <h1>Bye</h1>
+        </Slide>
+      </Presentation>
     );
   }
 };
