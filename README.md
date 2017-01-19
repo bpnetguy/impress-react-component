@@ -32,22 +32,22 @@ ReactDOM.render(<App />, document.body)
 ```
 
 Here's a list of components you can use:
-##Presentation
+###Presentation
 The main component which includes all other impress components, you need this to define a new presentation
 
 _Presentation_ props:
 + **style**
-...styling the main div which includes all presentation components
+⋅⋅⋅styling the main div which includes all presentation components
 
-##Slide
+###Slide
 Defines a slide of your presentation
 
 _Slide_ props:
 + **style**
-...styling the main div of slide
+⋅⋅⋅styling the main div of slide
 + **x**
-...Slide's position-x
+⋅⋅⋅Slide's position-x
 + **y**
-...Slide's position-y
+⋅⋅⋅Slide's position-y
 + **z**
-...Slide's position-z
+⋅⋅⋅Slide's position-z
