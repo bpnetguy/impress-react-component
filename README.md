@@ -36,7 +36,7 @@ Here's a list of components you can use:
 The main component which includes all other impress components, you need this to define a new presentation
 
 _Presentation_ props:
-+ **style**
+**style**
 
 ⋅⋅⋅styling the main div which includes all presentation components
 
@@ -44,15 +44,11 @@ _Presentation_ props:
 Defines a slide of your presentation
 
 _Slide_ props:
-+ **style**
-
-⋅⋅⋅styling the main div of slide
-+ **x**
-
-⋅⋅⋅Slide's position-x
-+ **y**
-
-⋅⋅⋅Slide's position-y
-+ **z**
-
-⋅⋅⋅Slide's position-z
+**style**
+: styling the main div of slide
+**x**
+: Slide's position-x
+**y**
+: Slide's position-y
+**z**
+: Slide's position-z
