@@ -48,6 +48,8 @@ a global height for all slides of presentation _[number]_
 Defines a slide of your presentation
 
 _Slide_ props:
+- **id:**
+slide id _[string]_
 - **style:**
 styling the main div of slide _[object]_
 - **position:**
