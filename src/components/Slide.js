@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'
+import Radium from 'radium'
 
-export default class Presentation extends React.Component {
+class Slide extends React.Component {
 
     componentWillMount () {
         // position props
@@ -29,16 +30,23 @@ export default class Presentation extends React.Component {
             rotateX: this.props.rotateX || rotateX || 0,
             rotateY: this.props.rotateY || rotateY || 0,
             rotateZ: this.props.rotateZ || this.props.rotate || rotateZ || 0,
+            style: this.props.style || {}
         }
-        console.log(this.state)
+
+        this.state.style = Object.assign(this.state.style, {
+            width: this.props.width,
+            height: this.props.height,
+        })
+
     }
 
     render () {
-        let { x, y, z, rotateX, rotateY, rotateZ } = this.state
+        let { x, y, z, rotateX, rotateY, rotateZ, style } = this.state
         return (
             <div
-                style={this.props.style}
-                className="step"
+                id={this.props.id}
+                style={style}
+                className="step Slide"
                 data-x={x}
                 data-y={y}
                 data-z={z}
@@ -52,3 +60,5 @@ export default class Presentation extends React.Component {
     }
 
 }
+
+export default Radium(Slide)

@@ -39,6 +39,10 @@ The main component which includes all other impress components, you need this to
 _Presentation_ props:
 - **style:**
 styling the main div of presentation _[object]_
+- **width:**
+a global width for all slides of presentation _[object]_
+- **height:**
+a global height for all slides of presentation _[object]_
 
 ###Slide
 Defines a slide of your presentation
@@ -62,6 +66,10 @@ Slide's rotation-x _[number]_
 Slide's rotation-y _[number]_
 - **rotateZ:**
 Slide's rotation-z _[number]_
+- **width:**
+width of slide's main div _[object]_
+- **height:**
+height of slide's main div _[object]_
 
 ===
 
