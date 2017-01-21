@@ -40,9 +40,9 @@ _Presentation_ props:
 - **style:**
 styling the main div of presentation _[object]_
 - **width:**
-a global width for all slides of presentation _[object]_
+a global width for all slides of presentation _[number]_
 - **height:**
-a global height for all slides of presentation _[object]_
+a global height for all slides of presentation _[number]_
 
 ###Slide
 Defines a slide of your presentation
@@ -67,9 +67,9 @@ Slide's rotation-y _[number]_
 - **rotateZ:**
 Slide's rotation-z _[number]_
 - **width:**
-width of slide's main div _[object]_
+width of slide's main div _[number]_
 - **height:**
-height of slide's main div _[object]_
+height of slide's main div _[number]_
 
 ===
 
