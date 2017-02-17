@@ -2,16 +2,19 @@
   "name": "impress-react-component",
   "version": "1.0.4",
   "description": "Impress.js Components for React",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "dependencies": {
-    
   },
   "devDependencies": {
     "react": "^15.3.1",
+    "babel": "^6.14.0",
+    "babel-cli": "^6.14.0",
     "babel-core": "^6.14.0",
+    "babel-eslint": "^4.1.6",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.11.1",
     "react-dom": "^15.3.1",
     "webpack": "^1.13.2"
   },
@@ -19,6 +22,9 @@
     "test": "test"
   },
   "scripts": {
+    "compile": "babel -d lib/ src/",
+    "install": "npm run compile",
+    "prepublish": "npm run install",
     "test": "npm test"
   },
   "keywords": [
