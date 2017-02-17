@@ -4,6 +4,7 @@
   "description": "Impress.js Components for React",
   "main": "lib/index.js",
   "dependencies": {
+    "impress.js": "^0.6.0"
   },
   "devDependencies": {
     "react": "^15.3.1",
